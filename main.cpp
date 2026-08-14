@@ -268,7 +268,7 @@ void GetPaltalkWindows(void)
 		return;
 	}
 	// Getting the main Paltalk window handle
-	ghPtMain = FindWindowW(L"Qt6103QWindowOwnDCIcon", gwcRoomTitle);  // this is to send text 
+	ghPtMain = FindWindowW(L"Qt6111QWindowOwnDCIcon", gwcRoomTitle);  // this is to send text 
 	if (ghPtMain == NULL)
 	{
 		msga("No Paltalk Main Window Found!");
